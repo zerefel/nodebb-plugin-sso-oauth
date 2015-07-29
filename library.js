@@ -38,12 +38,12 @@
 				consumerSecret: ''
 			},
 			oauth2: {
-				authorizationURL: '',
-				tokenURL: '',
-				clientID: '',
-				clientSecret: ''
+				authorizationURL: 'dev.dotaleap.com/api/oauth2/authorize',
+				tokenURL: 'dev.dotaleap.com/api/oauth2/token',
+				clientID: 'forumid',
+				clientSecret: 'forumsecret'
 			},
-			userRoute: ''	// This is the address to your app's "user profile" API endpoint (expects JSON)
+			userRoute: 'dev.dotaleap.com/api/user/'	// This is the address to your app's "user profile" API endpoint (expects JSON)
 		}),
 		configOk = false,
 		OAuth = {}, passportOAuth, opts;
